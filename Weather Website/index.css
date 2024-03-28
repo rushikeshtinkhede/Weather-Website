@@ -50,6 +50,7 @@ body {
     margin-right: 16px;
     font-size: 17px;
     height: 50px;
+    font-family:'Ubuntu', sans-serif;
 }
 
 .search button {

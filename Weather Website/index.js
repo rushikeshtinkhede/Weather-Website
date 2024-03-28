@@ -39,7 +39,8 @@ function weatherImg(weatherType) {
         "Rain": "Weather Website/rain.png",
         "Drizzle": "Weather Website/drizzle.png",
         "Mist": "Weather Website/mist.png",
-        "Snow": "Weather Website/snow.png"
+        "Snow": "Weather Website/snow.png",
+        "Haze": "Weather Website/clear.png"
     };
     weatherimage.src = weatherImgs[weatherType] || "Weather Website/clear.png";
 }

@@ -41,7 +41,7 @@ function weatherImg(weatherType) {
         "Mist": "Weather Website/mist.png",
         "Snow": "Weather Website/snow.png"
     };
-    weatherimage.src = weatherImgs[weatherType] || "clear.png";
+    weatherimage.src = weatherImgs[weatherType] || "Weather Website/clear.png";
 }
 
 function displayError() {

@@ -34,12 +34,12 @@ function weatherUpdate(data) {
 
 function weatherImg(weatherType) {
     const weatherImgs = {
-        "Clouds": "clouds.png",
-        "Clear": "clear.png",
-        "Rain": "rain.png",
-        "Drizzle": "drizzle.png",
-        "Mist": "mist.png",
-        "Snow": "snow.png"
+        "Clouds": "Weather Website/clouds.png",
+        "Clear": "Weather Website/clear.png",
+        "Rain": "Weather Website/rain.png",
+        "Drizzle": "Weather Website/drizzle.png",
+        "Mist": "Weather Website/mist.png",
+        "Snow": "Weather Website/snow.png"
     };
     weatherimage.src = weatherImgs[weatherType] || "clear.png";
 }
